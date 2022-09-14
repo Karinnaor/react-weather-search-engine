@@ -13,7 +13,7 @@ root.render(
         <h1>Weather Search Engine</h1>
         <WeatherApp />
       </div>
-      <p class="text-center mt-5">
+      <p className="text-center mt-5">
         ✌️ This project was coded by Karin Naor, and is{" "}
         <a
           href="https://github.com/Karinnaor/react-weather-search-engine"

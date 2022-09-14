@@ -35,7 +35,7 @@ export default function WeatherApp() {
       <input
         className="searchBox"
         type="search"
-        placeHolder="Enter a city..."
+        placeholder="Enter a city..."
         onChange={updateCity}
       />
       <button type="submit">Let's go! </button>
