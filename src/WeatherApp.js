@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from `axios`;
+import axios from "axios";
 
 import "./styles.css";
 
@@ -33,11 +33,12 @@ export default function WeatherApp() {
   let form = (
     <form onSubmit={handleSubmit}>
       <input
+        className="searchBox"
         type="search"
         placeHolder="Enter a city..."
         onChange={updateCity}
       />
-      <button type="submit">Let's go" </button>
+      <button type="submit">Let's go! </button>
     </form>
   );
 
