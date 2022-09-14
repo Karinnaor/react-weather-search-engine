@@ -2,7 +2,6 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import WeatherApp from "./WeatherApp";
 import "./App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -22,17 +21,6 @@ root.render(
           title="Karin's code on github"
         >
           open sourced
-        </a>{" "}
-        on
-        <span>
-          <FontAwesomeIcon icon="fa-brands fa-github" />
-        </span>
-        <a
-          href="https://www.github.com/karinnaor"
-          target="_blank"
-          title="Github profile"
-        >
-          Github
         </a>
       </p>
     </div>
