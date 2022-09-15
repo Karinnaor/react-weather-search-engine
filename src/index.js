@@ -18,7 +18,7 @@ root.render(
         <a
           href="https://github.com/Karinnaor/react-weather-search-engine"
           target="_blank"
-          rel="nonreferrer"
+          rel="noreferrer"
           title="Karin's code on github"
         >
           open sourced
